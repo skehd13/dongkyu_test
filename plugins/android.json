@@ -1,0 +1,31 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.example.web.test"
+        },
+        "cordova-plugin-mfp": {
+            "PACKAGE_NAME": "com.example.web.test"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.example.web.test"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.example.web.test"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.example.web.test"
+        },
+        "cordova-plugin-okhttp": {
+            "PACKAGE_NAME": "com.example.web.test"
+        }
+    }
+}
