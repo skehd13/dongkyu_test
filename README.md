@@ -1,3 +1,3 @@
 # dongk test
-# dongkyu_test
-# dongkyu_test
+# cordova test
+# receiver test

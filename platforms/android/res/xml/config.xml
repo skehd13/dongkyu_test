@@ -88,7 +88,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <mfp:android>
-        <mfp:sdkChecksum>0</mfp:sdkChecksum>
+        <mfp:sdkChecksum>457451443</mfp:sdkChecksum>
         <mfp:appChecksum>0</mfp:appChecksum>
         <mfp:security>
             <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
@@ -122,7 +122,7 @@
         </mfp:windows10>
         <mfp:appChecksum>0</mfp:appChecksum>
     </mfp:windows>
-    <mfp:platformVersion />
+    <mfp:platformVersion>8.0.0.00-20170701-023444</mfp:platformVersion>
     <mfp:clientCustomInit enabled="false" />
     <mfp:server runtime="mfp" url="http://10.0.0.1:9080" />
     <mfp:directUpdateAuthenticityPublicKey />

@@ -1,0 +1,115 @@
+Node version: v8.1.3
+
+Cordova version: 7.0.1
+
+Config.xml file: 
+
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.web.test" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:mfp="http://www.ibm.com/mobilefirst/cordova-plugin-mfp">
+    <name>cordovaweb</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <mfp:android>
+        <mfp:sdkChecksum>457451443</mfp:sdkChecksum>
+        <mfp:appChecksum>0</mfp:appChecksum>
+        <mfp:security>
+            <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
+        </mfp:security>
+    </mfp:android>
+    <mfp:ios>
+        <mfp:sdkChecksum>0</mfp:sdkChecksum>
+        <mfp:appChecksum>0</mfp:appChecksum>
+        <mfp:security>
+            <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
+        </mfp:security>
+    </mfp:ios>
+    <mfp:windows>
+        <mfp:windows8>
+            <mfp:sdkChecksum>0</mfp:sdkChecksum>
+            <mfp:security>
+                <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
+            </mfp:security>
+        </mfp:windows8>
+        <mfp:windowsphone8>
+            <mfp:sdkChecksum>0</mfp:sdkChecksum>
+            <mfp:security>
+                <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
+            </mfp:security>
+        </mfp:windowsphone8>
+        <mfp:windows10>
+            <mfp:sdkChecksum>0</mfp:sdkChecksum>
+            <mfp:security>
+                <mfp:testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3" />
+            </mfp:security>
+        </mfp:windows10>
+        <mfp:appChecksum>0</mfp:appChecksum>
+    </mfp:windows>
+    <mfp:platformVersion>8.0.0.00-20170701-023444</mfp:platformVersion>
+    <mfp:clientCustomInit enabled="false" />
+    <mfp:server runtime="mfp" url="http://10.0.0.1:9080" />
+    <mfp:directUpdateAuthenticityPublicKey />
+    <mfp:languagePreferences>en</mfp:languagePreferences>
+    <plugin name="cordova-plugin-mfp" spec="^8.0.2017070506" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
+    <engine name="android" spec="^6.2.3" />
+</widget>
+
+
+Plugins: 
+
+cordova-plugin-device,cordova-plugin-dialogs,cordova-plugin-globalization,cordova-plugin-mfp,cordova-plugin-okhttp,cordova-plugin-whitelist
+
+Android platform:
+
+*************************************************************************
+The "android" command is deprecated.
+For manual SDK, AVD, and project management, please use Android Studio.
+For command-line tools, use tools/bin/sdkmanager and tools/bin/avdmanager
+*************************************************************************
+Running /Users/test/Library/Android/sdk/tools/bin/avdmanager list target
+
+Available Android targets:
+----------
+id: 1 or "android-23"
+     Name: Android API 23
+     Type: Platform
+     API level: 23
+     Revision: 3
+----------
+id: 2 or "android-24"
+     Name: Android API 24
+     Type: Platform
+     API level: 24
+     Revision: 2
+----------
+id: 3 or "android-25"
+     Name: Android API 25
+     Type: Platform
+     API level: 25
+     Revision: 3
+----------
+id: 4 or "android-26"
+     Name: Android API 26
+     Type: Platform
+     API level: 26
+     Revision: 1
+
